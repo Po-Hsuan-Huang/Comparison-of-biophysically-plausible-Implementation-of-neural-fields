@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/spyder.py", line 2331, in main
+    mainwindow = run_spyder(app, options, args)
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/spyder.py", line 2215, in run_spyder
+    main.setup()
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/spyder.py", line 767, in setup
+    from spyderlib.plugins.editor import Editor
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/plugins/editor.py", line 39, in <module>
+    from spyderlib.widgets.status import (ReadWriteStatus, EOLStatus,
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/widgets/status.py", line 24, in <module>
+    required_version=PSUTIL_REQVER)
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/dependencies.py", line 70, in add
+    installed_version)]
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/dependencies.py", line 32, in __init__
+    self.installed_version = programs.get_module_version(modname)
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/spyderlib/utils/programs.py", line 238, in get_module_version
+    mod = __import__(module_name)
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/psutil/__init__.py", line 95, in <module>
+    import psutil._psosx as _psplatform
+  File "/Users/pohsuanhuang/miniconda/envs/nupic/lib/python2.7/site-packages/psutil/_psosx.py", line 64, in <module>
+    get_system_boot_time = _psutil_osx.get_system_boot_time
+AttributeError: 'module' object has no attribute 'get_system_boot_time'
