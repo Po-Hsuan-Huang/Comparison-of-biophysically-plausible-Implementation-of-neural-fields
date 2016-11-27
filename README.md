@@ -9,7 +9,7 @@ https://www.researchgate.net/publication/306324147_Comparison_of_biophysically_p
 
 ## Folders
 
-**CurveFitting** is the folder contianing Matlab codes used to fit the F-I curves. The folder **Least Square Fit** contains  curve fitting functions used to fit the simulation results produced by Python files. **functions** contains many functions that produce F-I curve data. These functions of several single neuron models are used in curve fitting functions. Simplified Aeif models are in this folder. 
+**CurveFitting** is the folder contianing Matlab codes used to fit the F-I curves. The images are the samples of the results that was used in the paper. The underneath folder **Least Square Fit** contains  curve fitting functions used to fit the simulation results produced by Python files. The other subfolder **functions** contains many functions that produce F-I curve data. These functions of several single neuron models are used in curve fitting functions. Simplified Aeif models are in this folder. 
 
 **Python Simulation of neural field** is the folder contianing Python codes used to simulate the biophysical models used in the paper. The models are based on [ NEST (NEural simulation tool)](http://www.nest-simulator.org) The folders under this directory contains the results (images) and the source codes of the simluations that were used to evaluate the reproducibility of the two simulation tools (Matlab and NEST).
 
